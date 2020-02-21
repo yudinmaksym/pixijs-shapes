@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* ----------------------------------------------------------------------------- */
+
+.top-stats {
+    display: inline-block;
+    
+}
+.top-stats .top-stats__tab {
+    display: inline-block;
+    vertical-align: middle;
+    padding: 25px 10px;
+}
+
+.top-stats .top-stats__info {
+    display: inline-block;
+    font-size: large;
+    font-weight: bold;
+    vertical-align: middle;
+    width: 3.2em;
+}
+
+.top-stats .top-stats__label {
+    display: inline-block;
+    min-width: 200px;
+    vertical-align: middle;
+}
+
+/* ----------------------------------------------------------------------------- */
+
+.bottom-elements {
+    padding: 1em 0;
+    display: flex;
+    align-items: center;
+}
+
+.bottom-elements .item {
+    display: flex;
+    flex-direction: column;
+    margin: 0 40px;
+}
+
+.increments {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.increments.increments_shifted {
+    margin-left: 1em;
+}
+
+.increments .increment__sign {
+    font-size: 3.9em;
+    line-height: 45px;
+    text-align: center;
+}
+
+.increments .increments__btn {
+    display: inline-block;
+    width: 50px;
+    cursor: pointer;
+    height: 50px;
+    text-align: center;
+    border-radius: 50%;
+    background-color: blue;
+    color: #ffffff;
+}
+
+.info-block {
+    display: inline-block;
+    height: 2.3em;
+    vertical-align: top;
+    margin-top: 20px;
+}
+
+.info-block .info-block__label {
+    width: 8.5em;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.info-block .info-block__content {
+    display: inline-block;
+    width: 1.2em;
+    font-size: 1.2em;
+    font-weight: bold;
+    line-height: 2;
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Shapes</title>
+</head>
+<body>
+    <div class="top-stats">
+        <div class="top-stats__tab">
+            <div class="top-stats__label">Current shapes </div>
+            <div id="shapes-number" class="top-stats__info"></div>
+        </div>
+        <div class="top-stats__tab">
+            <div class="top-stats__label">Surface area</div>
+            <div id="surface-area" class="top-stats__info"></div>
+        </div>
+    </div>
+
+    <div id="app" class="app"></div>
+
+    <div class="bottom-elements">
+        <div class="item">
+            <div class="increments">
+                <div id="decrease-elements" class="increments__btn increments__btn-left">
+                    <div class="increment__sign">-</div>
+                </div>
+                    <div id="increase-elements" class="increments__btn increments__btn-right">
+                    <div class="increment__sign">+</div>
+                </div>
+            </div>
+            <div class="info-block">
+                <div class="info-block__label">Shapes/sec </div>
+                <div id="shapes-number-per-sec" class="info-block__content"></div>
+            </div>
+        </div>
+        <div class="item">
+            <div class="increments increments_shifted">
+                <div id="gravity-decrease" class="increments__btn increments__btn-left">
+                    <div class="increment__sign">-</div>
+                </div>
+                    <div id="gravity-increase" class="increments__btn increments__btn-right">
+                    <div class="increment__sign">+</div>
+                </div>
+            </div>
+            <div class="info-block">
+                <div class="info-block__label">Gravity</div>
+                <div id="gravity-value" class="info-block__content"></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
