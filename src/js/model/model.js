@@ -34,11 +34,9 @@ export default class ModelController {
     }
 
     changeShapeColor(area) {
-        console.log(area)
         const newShapes = []
         this.shapes.map(el => {
             if(el.area === area) {
-                console.log(el.constructor.name)
                 const ShapeConst = this.allShapes.filter(shape => shape.name === el.constructor.name)
                 const options = {
                     x: el.x,
@@ -47,7 +45,6 @@ export default class ModelController {
                 }
                 el.delete()
                 this.deleteShapeFromMemmory(el.id)
-                console.log(ShapeConst)
                 newShapes.push({constructor: ShapeConst, options: options})
             }
         })
